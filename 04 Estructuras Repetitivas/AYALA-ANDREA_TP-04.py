@@ -55,10 +55,12 @@
 # numero_azar = random.randint(0, 9)
 
 # num = 10
+# contador = 0
 # while numero_azar != num:
 #     num = int(input("Adivine el número seleccionado al azar del 0 al 9: "))
+#     contador += 1
 
-# print(f"Correcto! El número era el {num}")
+# print(f"Correcto! El número era el {num} y sólo necesitaste {contador} intentos para adivinarlo!")
 
 # 6) Desarrolla un programa que imprima en pantalla todos los números pares comprendidos
 # entre 0 y 100, en orden decreciente.
