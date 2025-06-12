@@ -103,6 +103,6 @@
 
 def calcular_promedio(a, b, c):
     prom = (a + b + c) / 3
-    print(f"El promedio es ", prom)
+    print(f"El promedio es ",prom)
 
-calcular_promedio(float(input("Ingrese un número entero: ")), float(input("Ingrese otro número entero: ")), float(input("Ingrese un tercer número entero: ")))
+calcular_promedio(float(input("Ingrese un número: ")), float(input("Ingrese otro número: ")), float(input("Ingrese un tercer número: ")))
